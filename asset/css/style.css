@@ -1,0 +1,5 @@
+header {
+  position: relative;
+  height: 100vh;
+  background: linear-gradient(0deg, rgba(63,90,135,1) 0%, rgba(53,69,117,1) 40%, rgba(17,18,57,1) 100%);
+}
