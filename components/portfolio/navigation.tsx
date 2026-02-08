@@ -25,13 +25,13 @@ export function Navigation() {
 
   return (
     <header
-      className={`fixed top-0 left-0 right-0 z-50 transition-all duration-500 ${
+      className={`fixed top-6 left-1/2 -translate-x-1/2 w-[90%] max-w-5xl z-50 transition-all duration-500 rounded-full border border-white/10 ${
         isScrolled
-          ? "bg-background/80 backdrop-blur-lg border-b border-border"
-          : "bg-transparent"
+          ? "bg-background/70 backdrop-blur-[8px] shadow-lg"
+          : "bg-background/40 backdrop-blur-[4px]"
       }`}
     >
-      <nav className="max-w-6xl mx-auto px-6 py-4 flex items-center justify-between">
+      <nav className="px-6 h-[74px] flex items-center justify-between">
         {/* Logo */}
         <a
           href="#"
@@ -47,7 +47,7 @@ export function Navigation() {
             <li key={item.href}>
               <a
                 href={item.href}
-                className="text-muted-foreground hover:text-foreground text-sm font-medium transition-colors duration-300 relative group"
+                className="text-muted-foreground hover:text-foreground text-sm font-medium transition-colors duration-300 relative group uppercase tracking-wider"
               >
                 {item.label}
                 <span className="absolute -bottom-1 left-0 w-0 h-px bg-primary transition-all duration-300 group-hover:w-full" />

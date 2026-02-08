@@ -79,7 +79,7 @@ const projects = [
     description: "금강보청기 웹사이트 퍼블리싱.",
     image: "/projects/portfolio8.jpg",
     url: "http://www.kgdigital.co.kr",
-    tags: ["브랜드 사이트", "신규구축"],
+    tags: ["브랜드 사이트", "신규구축","반응형 웹"],
   },
   {
     id: 10,
@@ -178,8 +178,8 @@ export function PortfolioSection() {
                       fill
                       className="object-cover transition-transform duration-700 group-hover:scale-110"
                     />
-                    {/* Overlay */}
-                    <div className="absolute inset-0 bg-gradient-to-t from-background via-background/50 to-transparent opacity-80" />
+                    {/* Overlay - Darker gradient for better text readability */}
+                    <div className="absolute inset-0 bg-gradient-to-t from-black/90 via-black/50 to-transparent opacity-100" />
                   </div>
 
                   {/* Content */}
@@ -189,23 +189,23 @@ export function PortfolioSection() {
                       {project.tags.map((tag) => (
                         <span
                           key={tag}
-                          className="px-3 py-1 text-xs font-mono bg-primary/10 text-primary rounded-full border border-primary/20"
+                          className="px-3 py-1 text-xs font-mono bg-black/70 text-white rounded-full border border-primary/50 backdrop-blur-md shadow-sm"
                         >
                           {tag}
                         </span>
                       ))}
                     </div>
 
-                    <h3 className="text-2xl md:text-3xl font-bold text-foreground mb-2">
+                    <h3 className="text-2xl md:text-3xl font-bold text-white mb-3 drop-shadow-md">
                       {project.title}
                     </h3>
-                    <p className="text-muted-foreground text-sm md:text-base max-w-md">
+                    <p className="text-gray-200 text-sm md:text-base max-w-md leading-relaxed drop-shadow-sm font-medium">
                       {project.description}
                     </p>
 
                     {/* View Project button - appears on hover */}
                     <div className="mt-6 transform translate-y-4 opacity-0 group-hover:translate-y-0 group-hover:opacity-100 transition-all duration-500">
-                      <span className="inline-flex items-center gap-2 px-6 py-3 bg-primary text-primary-foreground font-medium rounded-full text-sm">
+                      <span className="inline-flex items-center gap-2 px-6 py-3 bg-primary text-white font-bold rounded-full text-sm shadow-lg hover:bg-primary/90 transition-colors">
                         Visit Site
                         <svg
                           className="w-4 h-4"
@@ -225,7 +225,7 @@ export function PortfolioSection() {
                   </div>
 
                   {/* Border glow on hover */}
-                  <div className="absolute inset-0 rounded-2xl border-2 border-transparent group-hover:border-primary/30 transition-colors duration-500" />
+                  <div className="absolute inset-0 rounded-2xl border-2 border-transparent group-hover:border-primary/50 transition-colors duration-500" />
                 </article>
               </Link>
             ))}

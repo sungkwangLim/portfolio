@@ -78,7 +78,7 @@ export function AboutSection() {
             <div className="relative">
               <div className="relative aspect-[3/4] rounded-2xl overflow-hidden bg-card shadow-lg">
                 <Image
-                  src="/my_profile_picture.png"
+                  src="/my1.png"
                   alt="Portrait photo"
                   fill
                   className="object-cover"
@@ -99,12 +99,12 @@ export function AboutSection() {
                   </svg>
                   <span>limsungkwang@naver.com</span>
                 </li>
-                <li className="flex items-center gap-3 text-muted-foreground">
+                {/* <li className="flex items-center gap-3 text-muted-foreground">
                   <svg className="w-5 h-5 text-primary" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />
                   </svg>
-                  <span>010-2769-1694</span>
-                </li>
+                  <span></span>
+                </li> */}
                 <li className="flex items-center gap-3 text-muted-foreground">
                   <svg className="w-5 h-5 text-primary" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
@@ -129,7 +129,7 @@ export function AboutSection() {
                 커머스 환경에서의 이벤트 페이지 제작, 프로모션 기획전 퍼블리싱에 전문성을 가지고 있습니다.
               </p>
               <blockquote className="border-l-4 border-primary pl-4 italic text-foreground/80">
-                "기획자, 디자이너, 개발자와의 원활한 커뮤니케이션을 중요하게 생각하며,
+                "기획자, 디자이너, 개발자와의 원활한 커뮤니케이션을 중요하게 생각하며, <br />
                 맡은 업무는 끝까지 책임지고 수행합니다."
               </blockquote>
             </div>
@@ -173,7 +173,7 @@ export function AboutSection() {
                   <li className="bg-card p-4 rounded-lg border border-border hover:shadow-lg hover:border-primary/50 transition-all duration-300">
                     <h5 className="font-bold text-sm">고려사이버대학교</h5>
                     <p className="text-xs text-muted-foreground mt-1">소프트웨어공학과 (졸업)</p>
-                    <span className="text-xs text-primary/80 font-mono mt-2 block">2021.03 - 2025.02</span>
+                    <span className="text-xs text-muted-foreground/80 font-mono mt-2 block">2018.03 - 2020.02</span>
                   </li>
                   <li className="bg-card p-4 rounded-lg border border-border hover:shadow-lg hover:border-primary/50 transition-all duration-300">
                     <h5 className="font-bold text-sm">인덕대학교</h5>
@@ -200,10 +200,6 @@ export function AboutSection() {
                   <li className="bg-card p-4 rounded-lg border border-border hover:shadow-lg hover:border-primary/50 transition-all duration-300">
                     <h5 className="font-bold text-sm">GTQ 포토샵 1급</h5>
                     <p className="text-xs text-muted-foreground mt-1">한국생산성본부</p>
-                  </li>
-                  <li className="bg-card p-4 rounded-lg border border-border hover:shadow-lg hover:border-primary/50 transition-all duration-300">
-                    <h5 className="font-bold text-sm">MOS Master 2003</h5>
-                    <p className="text-xs text-muted-foreground mt-1">Microsoft</p>
                   </li>
                   <li className="bg-card p-4 rounded-lg border border-border hover:shadow-lg hover:border-primary/50 transition-all duration-300">
                     <h5 className="font-bold text-sm">반응형 웹 디자인 실무</h5>

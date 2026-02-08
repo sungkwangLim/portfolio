@@ -11,7 +11,7 @@ export function Footer() {
         </p>
         <nav aria-label="Footer navigation">
           <ul className="flex items-center gap-6">
-            <li>
+            {/* <li>
               <a
                 href="#"
                 className="text-muted-foreground hover:text-foreground text-sm transition-colors duration-300"
@@ -34,7 +34,7 @@ export function Footer() {
               >
                 사이트맵
               </a>
-            </li>
+            </li> */}
           </ul>
         </nav>
       </div>
