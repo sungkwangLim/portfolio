@@ -27,19 +27,17 @@ image: /public/projects/portfolio6.png
 url: https://www.oksavingsbank.com/
 
 ## 머니투데이
-
+image: /public/projects/portfolio7.jpg
 url: https://www.mt.co.kr/
 
 ## 금강보청기
-
+image: /public/projects/portfolio8.jpg
 url: http://www.kgdigital.co.kr
 
 ## 스와니코코
-
+image: /public/projects/portfolio9.jpg
 url: http://www.swanicoco.co.kr
 
 ## 한국제지
-
+image: /public/projects/portfolio10.jpg
 url: http://www.hankukpaper.com/ko/main/main.do
-
-##
