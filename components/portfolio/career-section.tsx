@@ -156,7 +156,7 @@ export function CareerSection() {
   return (
     <section
       ref={sectionRef}
-      className="py-32 px-6 bg-background"
+      className="py-32 px-6 bg-background overflow-hidden"
       aria-labelledby="career-title"
     >
       <div className="max-w-5xl mx-auto">

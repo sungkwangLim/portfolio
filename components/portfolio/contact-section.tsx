@@ -41,7 +41,7 @@ gsap.registerPlugin(ScrollTrigger)
     return (
       <section
         ref={sectionRef}
-        className="py-32 px-6 bg-background"
+        className="py-32 px-6 bg-background overflow-hidden"
         aria-labelledby="contact-title"
       >
         <div className="max-w-3xl mx-auto">

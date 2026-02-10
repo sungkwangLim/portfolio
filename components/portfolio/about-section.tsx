@@ -56,7 +56,7 @@ export function AboutSection() {
   return (
     <section
       ref={sectionRef}
-      className="py-32 px-6 bg-secondary"
+      className="py-32 px-6 bg-secondary overflow-hidden"
       aria-labelledby="about-title"
     >
       <div className="max-w-6xl mx-auto">
@@ -177,7 +177,7 @@ export function AboutSection() {
                   </li>
                   <li className="bg-card p-4 rounded-lg border border-border hover:shadow-lg hover:border-primary/50 transition-all duration-300">
                     <h5 className="font-bold text-sm">인덕대학교</h5>
-                    <p className="text-xs text-muted-foreground mt-1">디지털산업디자인과 (졸업)</p>
+                    <p className="text-xs text-muted-foreground mt-1">건설정보학과 (졸업)</p>
                     <span className="text-xs text-muted-foreground/80 font-mono mt-2 block">2005.03 - 2011.02</span>
                   </li>
                   <li className="bg-card p-4 rounded-lg border border-border hover:shadow-lg hover:border-primary/50 transition-all duration-300">
@@ -202,12 +202,12 @@ export function AboutSection() {
                     <p className="text-xs text-muted-foreground mt-1">한국생산성본부</p>
                   </li>
                   <li className="bg-card p-4 rounded-lg border border-border hover:shadow-lg hover:border-primary/50 transition-all duration-300">
-                    <h5 className="font-bold text-sm">반응형 웹 디자인 실무</h5>
-                    <p className="text-xs text-muted-foreground mt-1">하이미디어컴퓨터학원 | 2017.06 - 2017.11</p>
+                    <h5 className="font-bold text-sm">HTML5와 CSS를 이용한 미니프로젝트 실무</h5>
+                    <p className="text-xs text-muted-foreground mt-1">하이미디어컴퓨터학원 | 2014. 03 ~ 2014. 06</p>
                   </li>
                   <li className="bg-card p-4 rounded-lg border border-border hover:shadow-lg hover:border-primary/50 transition-all duration-300">
-                    <h5 className="font-bold text-sm">웹표준디자인 & HTML5</h5>
-                    <p className="text-xs text-muted-foreground mt-1">글로벌인재능력개발원 | 2012.02 - 2012.06</p>
+                    <h5 className="font-bold text-sm">웹표준 접근성 & HTML5</h5>
+                    <p className="text-xs text-muted-foreground mt-1">글로벌인재능력개발원 | 2013. 03 ~ 2013. 07</p>
                   </li>
                 </ul>
               </div>

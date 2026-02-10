@@ -254,7 +254,7 @@ export function TechStackSection() {
   return (
     <section
       ref={sectionRef}
-      className="py-32 px-6 bg-background"
+      className="py-32 px-6 bg-background overflow-hidden"
       aria-labelledby="tech-stack-title"
     >
       <div className="max-w-6xl mx-auto">
